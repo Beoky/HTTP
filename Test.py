@@ -22,6 +22,10 @@ request_counter=0
 flag=0
 safe=0
 
+def example_function():
+    if True:  # This line is indented with spaces
+        print("Consistent indentation!")  # This line is also indented with spaces
+
 def inc_counter():
 	global request_counter
 	request_counter+=9999
